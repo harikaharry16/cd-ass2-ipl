@@ -27,20 +27,6 @@ class TeamMatches extends Component {
       recentMatches: data.recent_matches,
     }
 
-    updateData.latestMatchDetails = {
-      umpires: updateData.latestMatchDetails.umpires,
-      result: updateData.latestMatchDetails.result,
-      manOfTheMatch: updateData.latestMatchDetails.man_of_the_match,
-      id: updateData.latestMatchDetails.id,
-      date: updateData.latestMatchDetails.id,
-      venue: updateData.latestMatchDetails.venue,
-      competingTeam: updateData.latestMatchDetails.competing_team,
-      competingTeamLogo: updateData.latestMatchDetails.competing_team_logo,
-      firstInnings: updateData.latestMatchDetails.first_innings,
-      secondInnings: updateData.latestMatchDetails.second_innings,
-      matchStatus: updateData.latestMatchDetails.match_status,
-    }
-
     this.setState({teamMatchData: updateData, isLoading: false})
   }
 
