@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.match-latest-container {
+  display: flex;
+  flex-direction: column;
+}
+.banner {
+  height: 250px;
+  width: 850px;
+  margin: 20px;
+}
+.bg {
+  background-color: red;
+  height: 100vh;
+}
